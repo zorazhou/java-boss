@@ -7,9 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="study" />
-        <module name="redis" />
-        <module name="kafka" />
+        <module name="redis-per" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kafka" target="1.5" />
+      <module name="redis" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

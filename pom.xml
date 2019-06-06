@@ -12,6 +12,7 @@
         <module>kafka</module>
         <module>redis</module>
         <module>study</module>
+        <module>redis-per</module>
     </modules>
 
 
